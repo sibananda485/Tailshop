@@ -40,5 +40,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
-  }
+  },
+  "homepage": "http://youssefzidan.github.io/gh-pages-app/"
 }
