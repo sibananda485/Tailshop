@@ -39,10 +39,10 @@ export default function Navbar() {
 
           <li className="flex text-lg space-x-7 md:space-x-4">
             <Link
-              to={isLogin ? "/profile" : "/login"}
+              to={isLogin?"/profile":"/login"}
               className="text-cyan-700 bg-white px-3 xsm:hidden"
             >
-              {isLogin ? "Profile" : "Login"}
+              {isLogin?"Profile":"Login"} 
             </Link>
             <li
               onMouseEnter={handleIn}

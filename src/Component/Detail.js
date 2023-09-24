@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { dataMain } from "../Data/ProuductData";
 import ProductBanner from "./ProductBanner";
 import Card from "./Card";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import LoginContext from "../Context/LoginContext";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import TostContext from "../Context/TostContext";
@@ -83,11 +83,7 @@ export default function Detail({ wish, setWish, cart, setCart }) {
               {dataMain[index].images.map((ele) => {
                 return (
                   <SplideSlide>
-                    <img
-                      src={ele}
-                      className="h-full object-contain object-center mx-auto my-auto"
-                      alt=""
-                    />
+                    <img src={ele} className="h-full object-contain object-center mx-auto my-auto" alt="" />
                   </SplideSlide>
                 );
               })}
@@ -144,6 +140,15 @@ export default function Detail({ wish, setWish, cart, setCart }) {
           <div className="space-y-5">
             <p className="font-bold">Description</p>
             <h1 className="text-xl">{dataMain[index].description}</h1>
+            {/* <p>
+              Tailshop Pvt. Ltd is a leading ecommerce store where you can find
+              your favourite product in you fingertips. we provide products
+              belongs to smartphones, laptop, grocery, home applience, decore,
+              any many more with convenient payment including UPI ,credit, debit
+              cards also for those who are unable to pay before delivery that is
+              cash on delivery. With 1 million happy customer delivered 34
+              million products accross india.
+            </p> */}
             <p>{dataMain[index].story}</p>
           </div>
         </div>
@@ -167,7 +172,7 @@ export default function Detail({ wish, setWish, cart, setCart }) {
       <ProductBanner button={false}>
         {dataMain
           .filter((ele, ind) => {
-            return ele.rating > 4.0 && ind > 8 && ind < 17;
+            return ele.rating>4.0 && ind>8 && ind<17;
           })
           .map((ele) => {
             return <Card {...ele}></Card>;
