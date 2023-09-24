@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Tailshop/static/css/main.fe8c090d.css",
+    "main.js": "/Tailshop/static/js/main.0c7161dd.js",
+    "static/media/c1.png": "/Tailshop/static/media/c1.2a5146dfaf3cab4cb5fc.png",
+    "static/media/cry.png": "/Tailshop/static/media/cry.0af127a05c963f119d6a.png",
+    "static/media/delivery.png": "/Tailshop/static/media/delivery.78eb2779bd82e52765fb.png",
+    "static/media/c3.png": "/Tailshop/static/media/c3.4aa6c0a634f6c0e3c6a7.png",
+    "static/media/c2.png": "/Tailshop/static/media/c2.3bbe7409e153997711f5.png",
+    "static/media/clickOrder.png": "/Tailshop/static/media/clickOrder.178fac890b37c84baf0f.png",
+    "static/media/empty.svg": "/Tailshop/static/media/empty.d4eb63337040fd996b192f8086e028b0.svg",
+    "static/media/cash.png": "/Tailshop/static/media/cash.cc46a6727ad7d33a6616.png",
+    "index.html": "/Tailshop/index.html",
+    "main.fe8c090d.css.map": "/Tailshop/static/css/main.fe8c090d.css.map",
+    "main.0c7161dd.js.map": "/Tailshop/static/js/main.0c7161dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe8c090d.css",
+    "static/js/main.0c7161dd.js"
+  ]
+}
